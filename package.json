@@ -1,0 +1,19 @@
+{
+  "name": "qa-automation-cypress",
+  "version": "1.0.0",
+  "description": "QA Automation Assignment - E2E Tests using Cypress with POM",
+  "scripts": {
+    "test": "npx cypress run --browser chrome",
+    "test:headless": "npx cypress run --browser chrome --headless",
+    "test:open": "npx cypress open",
+    "test:task1": "npx cypress run --browser chrome --headless --spec 'cypress/e2e/task1_fileUpload.cy.js'",
+    "test:task2": "npx cypress run --browser chrome --headless --spec 'cypress/e2e/task2_dynamicLoading.cy.js'",
+    "test:task3": "npx cypress run --browser chrome --headless --spec 'cypress/e2e/task3_dragAndDrop.cy.js'",
+    "test:all": "npx cypress run --browser chrome --headless"
+  },
+  "devDependencies": {
+    "cypress": "^13.6.0"
+  },
+  "author": "QA Automation Assignment",
+  "license": "ISC"
+}
